@@ -1,0 +1,18 @@
+<h1>Works!</h1>
+<h2>mongo</h2>
+<!--<p><%= @message %></p>-->
+<p><%= @msgarr %></p>
+<%= form_tag do %>
+  <%= text_field_tag(:ind) %>
+  <%= text_field_tag(:val) %>
+  <%= submit_tag("Add") %>
+<% end %>
+<br />
+<h2>redis</h2>
+<!--<p><%= @message %></p>-->
+<p><%= @rmsgarr %></p>
+<%= form_tag do %>
+  <%= text_field_tag(:ind) %>
+  <%= text_field_tag(:val) %>
+  <%= submit_tag("Add") %>
+<% end %>

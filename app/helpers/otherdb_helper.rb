@@ -1,0 +1,2 @@
+module OtherdbHelper
+end
